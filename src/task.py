@@ -3,6 +3,20 @@ import ply.yacc as yacc
 import statistics
 import os
 
+
+""" Exemplo sentenças no terminal
+load x.txt
+media 
+moda 
+frequencia and mediana
+
+
+"""
+
+
+
+
+
 tokens = (
     'LOAD', 'NAME', 'EXIT', 'AND', 'MEDIA', 'MEDIANA', 'MODA', 'FREQUENCIA'
 )
